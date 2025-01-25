@@ -1,0 +1,785 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+.div1 {
+  width: 100%;
+  height: 850px;
+  background-image: url(images/5425_l.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.starlink {
+  display: inline-block;
+  width: 250px;
+  height: 80px;
+  text-align: center;
+  transform: translate(20px, 12px);
+}
+.astarlink {
+  display: inline-block;
+  color: white;
+  transform: translate(10px, 25px);
+  font-size: 27px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 5px;
+  transition: 0.6s;
+}
+.astarlink:hover {
+  letter-spacing: 8px;
+  color: rgb(0, 152, 255);
+}
+.nav {
+  display: inline-block;
+  width: 550px;
+  height: 80px;
+  text-align: center;
+  transform: translate(140px, 12px);
+}
+.anav {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: 0.3s;
+  transform: translateY(20px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:hover.anav {
+  color: rgb(0, 152, 255);
+}
+.meno {
+  display: inline-block;
+  width: 260px;
+  height: 80px;
+  transform: translate(230px, 12px);
+}
+.ameno {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: 0.3s;
+  transform: translateY(20px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:hover.ameno {
+  color: rgb(0, 152, 255);
+}
+.h1div1 {
+  display: inline-block;
+  width: 400px;
+  color: white;
+  font-size: 47px;
+  transform: translate(490px, 35px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.pdiv1 {
+  color: rgb(255, 255, 255);
+  transform: translate(370px, 200px);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.form {
+  display: inline-block;
+  transform: translate(-40px, 540px);
+}
+.input {
+  padding: 16px;
+  width: 420px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 11px;
+  background-color: rgba(128, 128, 128, 0.377);
+}
+.button {
+  width: 190px;
+  padding: 15px;
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid white;
+  border-radius: 3px;
+  transform: translate(-25px, 540px);
+  transition: 0.6s;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+.acheck {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(-450px, 615px);
+}
+.small {
+  display: inline-block;
+  color: gray;
+  font-size: 12px;
+  transform: translate(520px, 590px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ascroll {
+  text-decoration: none;
+  color: gray;
+  transition: 0.4s;
+}
+.ascroll:hover {
+  color: white;
+}
+
+.div2 {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+
+.divldiv2 {
+  display: inline-block;
+  width: 670px;
+  height: inherit;
+  background-image: url(images/Marketing_LandingStreaming_Redesign.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.divrdiv2 {
+  display: inline-block;
+  width: 675px;
+  height: inherit;
+  background-color: black;
+  vertical-align: top;
+}
+.h1divrdiv2 {
+  display: inline-block;
+  color: white;
+  font-size: 47px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(70px, 100px);
+}
+.p1divrdiv2 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 160px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2divrdiv2 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 190px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adivrdiv2 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(77px, 260px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adivrdiv2:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.div3 {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.divl3 {
+  display: inline-block;
+  width: 666px;
+  height: inherit;
+  vertical-align: top;
+}
+.h1divl3 {
+  display: inline-block;
+  color: white;
+  font-size: 45px;
+  transform: translate(120px, 160px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.pdivl3 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  transform: translate(-105px, 270px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adivl3 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(125px, 340px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adivl3:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.divr3 {
+  display: inline-block;
+  width: 678.5px;
+  height: inherit;
+  background-image: url(images/Marketing_LandingPlugin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: top;
+}
+
+.div4 {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.divl4 {
+  display: inline-block;
+  width: 670px;
+  height: inherit;
+  background-color: rgb(219, 219, 219);
+  background-image: url(images/Starlink_Standard_500x500.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: top;
+}
+.divr4 {
+  display: inline-block;
+  width: 675px;
+  height: inherit;
+  background-color: black;
+  vertical-align: top;
+}
+.h1divr4 {
+  display: inline-block;
+  color: white;
+  font-size: 47px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(70px, 100px);
+}
+.p1divr4 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 160px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2divr4 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 190px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p3divr4 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 220px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adivr4 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(77px, 290px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adivr4:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.div5 {
+  width: 100%;
+  height: 660px;
+  background-image: url(images/rv_payasyougo_module_desktop.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.h1div5 {
+  display: inline-block;
+  color: white;
+  font-size: 45px;
+  transform: translate(100px, 120px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.p1div5 {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  transform: translate(-170px, 240px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2div5 {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  transform: translate(-573px, 330px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adiv5 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  line-height: 50px;
+  transform: translate(100px, 380px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adiv5:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.div6 {
+  width: 100%;
+  height: 660px;
+  background-color: black;
+}
+.divl6 {
+  display: inline-block;
+  width: 670px;
+  height: inherit;
+  background-image: url(images/Starlink-Mobile-Service-NoypiGeeks.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: top;
+}
+.divr6 {
+  display: inline-block;
+  width: 675px;
+  height: inherit;
+  background-color: black;
+  vertical-align: top;
+}
+.h1divr6 {
+  display: inline-block;
+  color: white;
+  font-size: 47px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(70px, 100px);
+}
+.p1divr6 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 160px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2divr6 {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  word-spacing: -2px;
+  transform: translate(75px, 190px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.a1divr6 {
+  display: inline-block;
+  width: 170px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(-380px, 305px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.a1divr6:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+.a2divr6 {
+  display: inline-block;
+  width: 210px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(270px, 250px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.a2divr6:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.div7 {
+  width: 100%;
+  height: 660px;
+  background-color: rgb(39, 39, 39);
+}
+
+.h1div7 {
+  text-align: center;
+  color: white;
+  font-size: 43px;
+  transform: translateY(70px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div17 {
+  display: inline-block;
+  width: 380px;
+  height: 300px;
+  vertical-align: top;
+  text-align: center;
+  transform: translate(55px, 100px);
+}
+.h1div17 {
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  font-size: 23px;
+  transform: translateY(30px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div27 {
+  display: inline-block;
+  width: 400px;
+  height: 360px;
+  vertical-align: top;
+  text-align: center;
+  transform: translate(100px, 100px);
+}
+.h1div27 {
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  font-size: 23px;
+  transform: translateY(30px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div37 {
+  display: inline-block;
+  width: 380px;
+  height: 300px;
+  vertical-align: top;
+  text-align: center;
+  transform: translate(140px, 100px);
+}
+.h1div37 {
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  font-size: 23px;
+  transform: translateY(30px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pdiv17 {
+  display: inline-block;
+  color: white;
+  transform: translate(85px, 30px);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pdiv27 {
+  display: inline-block;
+  color: white;
+  transform: translate(230px, 120px);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pdiv37 {
+  display: inline-block;
+  color: white;
+  transform: translate(365px, 30px);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divlogo7 {
+  display: inline-block;
+  width: 150px;
+  height: 130px;
+  transform: translate(180px, 50px);
+  background-image: url(images/Xlogo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px, 150px;
+}
+
+.div8 {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.divl8 {
+  display: inline-block;
+  width: 670px;
+  height: inherit;
+  background-image: url(images/starlink_mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.divr8 {
+  display: inline-block;
+  width: 675px;
+  height: inherit;
+  background-color: black;
+  vertical-align: top;
+}
+.h1divr8 {
+  display: inline-block;
+  color: white;
+  font-size: 47px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(70px, 100px);
+}
+.pdivr8 {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  word-spacing: -2px;
+  transform: translate(75px, 160px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adivr8 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(77px, 240px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adivr8:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.div9 {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.divl9 {
+  display: inline-block;
+  width: 666px;
+  height: inherit;
+  vertical-align: top;
+}
+.h1divl9 {
+  display: inline-block;
+  color: white;
+  font-size: 45px;
+  transform: translate(80px, 120px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.pdivl9 {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  transform: translate(80px, 200px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adivl9 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transform: translate(80px, 280px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adivl9:active {
+  background-color: white;
+  color: rgb(0, 122, 255);
+}
+
+.divr9 {
+  display: inline-block;
+  width: 678.5px;
+  height: inherit;
+  background-image: url(IMAGES/3af8b38c-f4bb-4275-a32a-6d79337731f8-SpaceX_Starlink_Launch_2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: top;
+}
+
+.div10 {
+  width: 100%;
+  height: 620px;
+  background-color: black;
+}
+.divline {
+  width: 1px;
+  height: 230px;
+  background-color: white;
+  margin: auto;
+  transform: translateY(70px);
+}
+.p1div10 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  transform: translate(465px, 90px);
+  font-size: 14px;
+  word-spacing: -2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2div10 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  transform: translate(155px, 120px);
+  font-size: 14px;
+  word-spacing: -2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adiv10 {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  line-height: 50px;
+  transition: all 0.6s;
+  transform: translate(-90px, 220px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adiv10:hover {
+  background-color: white;
+  color: black;
+}
+
+.div11 {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.span1div11 {
+  display: inline-block;
+  color: rgb(0, 183, 255);
+  transform: translate(50px, 20px);
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divfora11 {
+  display: inline-block;
+  width: 350px;
+  height: inherit;
+  text-align: center;
+  background-color: black;
+  transform: translateX(400px);
+}
+
+.adiv11 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transform: translateY(20px);
+  font-size: 13px;
+  transition: 0.3s;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.adiv11:hover {
+  color: rgb(0, 152, 255);
+}
+
+.spanline {
+  display: inline-block;
+  color: white;
+  transform: translateY(20px);
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.span3div11 {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  transform: translate(520px, 20px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
